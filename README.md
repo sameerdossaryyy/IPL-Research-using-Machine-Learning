@@ -1,22 +1,21 @@
 # 🏏 IPL Research Using Machine Learning
 
-This project explores the **behavioral patterns of right- and left-handed players** in the Indian Premier League (IPL) using **data analytics and machine learning**.  
-By analyzing **1,000+ survey responses** and applying statistical models, the study identifies performance trends, inefficiencies, and actionable insights that can be applied to decision-making in cricket analytics.
+This project applies **machine learning and data analytics** techniques to explore and predict outcomes in the **Indian Premier League (IPL)**.  
+The study focuses on analyzing historical match data, applying predictive models, and comparing algorithms to evaluate performance in terms of accuracy, F1 score, and efficiency.
 
 ---
 
 ## 🎯 Objectives
-- Compare right-handers vs left-handers based on survey data.
-- Detect hidden patterns using **exploratory data analysis (EDA)**.
-- Apply **machine learning algorithms** to model and predict outcomes.
-- Provide insights to reduce manual analysis work by ~20%.
+- Analyze IPL datasets to uncover key match trends.  
+- Apply **supervised learning models** to predict match outcomes.  
+- Compare different algorithms (Logistic Regression, SVM, CatBoost, XGBoost, etc.).  
+- Evaluate models using metrics such as accuracy, precision, recall, and F1-score.  
 
 ---
 
 ## 🛠️ Tech Stack
 - **Programming:** Python  
 - **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, CatBoost, XGBoost  
-- **Data Handling:** SQL, CSV survey dataset  
 - **Environment:** Google Colab / Jupyter Notebook  
 
 ---
@@ -24,31 +23,31 @@ By analyzing **1,000+ survey responses** and applying statistical models, the st
 ## 📂 Repository Structure
 ipl-research-ml/
 │── IPL_Research.ipynb # Main Jupyter Notebook
-│── data/ # Dataset (if included)
+│── data/ # IPL dataset(s)
 │── results/ # Graphs, visuals, and processed outputs
 │── README.md # Project documentation
-│── requirements.txt # List of dependencies
+│── requirements.txt # Dependencies
 
 
 ---
 
 ## 📊 Key Insights & Results
-- Identified **statistically significant differences** between right- and left-handers.  
-- Achieved **~92% model accuracy** with optimized algorithms.  
-- Improved efficiency by **20%** through automation of manual processes.  
-- Demonstrated that machine learning can **support strategic cricket decisions** based on player tendencies.  
+- Explored and pre-processed IPL historical match data for modeling.  
+- Trained multiple ML models and compared their performance.  
+- **Best performing model**: CatBoost (≈ highest accuracy & balanced F1).  
+- Achieved strong predictive performance suitable for further deployment.  
 
 ---
 
 ## 🚀 How to Run
 1. Clone this repository:
    ```bash
-   git clone https://github.com/sameerdossaryyy/IPL-Research-using-Machine-Learning.git
+      git clone https://github.com/sameerdossaryyy/IPL-Research-using-Machine-Learning.git
 
-##  📌 Future Work
+## 📌 Future Work
 
-Extend dataset with real-time IPL match data.
+Extend dataset with newer IPL seasons and ball-by-ball data.
 
-Implement deep learning models (LSTM, Transformers) for sequential predictions.
+Apply deep learning (LSTM, RNNs) for sequential prediction of match progress.
 
-Build an interactive dashboard using Streamlit/Dash for live analytics.
+Build a Streamlit/Dash dashboard for interactive match analytics.
