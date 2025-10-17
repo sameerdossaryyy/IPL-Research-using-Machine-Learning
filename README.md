@@ -43,4 +43,12 @@ ipl-research-ml/
 ## 🚀 How to Run
 1. Clone this repository:
    ```bash
-   git clone https://github.com/sameerdossaryyy/ipl-research-ml.git
+   git clone https://github.com/sameerdossaryyy/IPL-Research-using-Machine-Learning.git
+
+##  📌 Future Work
+
+Extend dataset with real-time IPL match data.
+
+Implement deep learning models (LSTM, Transformers) for sequential predictions.
+
+Build an interactive dashboard using Streamlit/Dash for live analytics.
